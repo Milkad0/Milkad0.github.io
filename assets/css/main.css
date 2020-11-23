@@ -627,7 +627,7 @@ footer{
     -moz-transform:rotate(-45deg);
     -ms-transform:rotate(-45deg);
     transform:rotate(-45deg)}
-.hydrocode
+.cybersecurity
 {
     background:#000 url(../img/bg-cybersecurity.jpg) top no-repeat;
     background-size: none;
@@ -637,28 +637,28 @@ footer{
     overflow:hidden
 }
 
-.hydrocode img{
+.cybersecurity img{
     margin-left: 45%
 }
 @media (min-width: 1800px){
-    .hydrocode{background-size:contain
+    .cybersecurity{background-size:contain
     }}
 @media (max-width: 767px){
-    .hydrocode{
+    .cybersecurity{
         padding:160px 0px
     }
-    .hydrocode img{
+    .cybersecurity img{
         margin-left: 35%
     }}
-.hydrocode .impact{
+.cybersecurity .impact{
     padding-top:100px;
     line-height:18px
 }@media (max-width: 767px){
-    .hydrocode .impact{
+    .cybersecurity .impact{
         padding-top:50px;
         padding-bottom:100px
     }}
-.hydrocode .impact a{
+.cybersecurity .impact a{
     -webkit-transition:0.5s all;
     -moz-transition:0.5s all;
     -ms-transition:0.5s all;
@@ -669,18 +669,18 @@ footer{
     font-size:12px;
     display:block
 }
-.hydrocode .impact a:after{
+.cybersecurity .impact a:after{
     content:"";
     display:table;
     clear:both
 }
-.hydrocode .impact a:hover{
+.cybersecurity .impact a:hover{
     color:#a98f75
 }
-.hydrocode .impact a:hover path{
+.cybersecurity .impact a:hover path{
     fill:#a98f75
 }
-.hydrocode .impact span{
+.cybersecurity .impact span{
     display:inline-block;
     font-weight:bold;
     text-transform:uppercase;
@@ -688,56 +688,56 @@ footer{
     font-size:14px;
     padding-top:10px
 }
-.hydrocode .impact path{
+.cybersecurity .impact path{
     -webkit-transition:0.5s all;
     -moz-transition:0.5s all;
     -ms-transition:0.5s all;
     -o-transition:0.5s all;
     transition:0.5s all
 }
-.hydrocode .impact svg,.hydrocode .impact img{
+.cybersecurity .impact svg,.cybersecurity .impact img{
     float:none;
     margin-right:60px;
     width:60px;
     height:70px
 }
-.hydrocode .alwayson{
+.cybersecurity .alwayson{
     position:absolute;
     left:0px;
     bottom:-120px
 }
 @media (max-width: 767px){
-    .hydrocode .alwayson{
+    .cybersecurity .alwayson{
         display:none
     }}
-.hydrocode .alwayson b{
+.cybersecurity .alwayson b{
     color:#ffffff
 }
-.hydrocode .alwayson span{
+.cybersecurity .alwayson span{
     margin:0px 5px;
     color:#383838
 }
-.hydrocode .alwayson a{
+.cybersecurity .alwayson a{
     color:#5e5e5e;
     text-decoration:none
 }
-.hydrocode .alwayson a:hover{
+.cybersecurity .alwayson a:hover{
     color:#ffffff
 }
-.hydrocode .graph{
+.cybersecurity .graph{
     height:400px;
     position:relative
 }@media (max-width: 960px){
-    .hydrocode .graph{
+    .cybersecurity .graph{
         width:50%;
         margin:auto;
         margin-top:100px
     }}
 @media (max-width: 767px){
-    .hydrocode .graph{
+    .cybersecurity .graph{
         display:none
     }}
-.hydrocode .graph-line{
+.cybersecurity .graph-line{
     -webkit-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     -moz-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     -ms-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -750,7 +750,7 @@ footer{
     left:-5%;
     bottom:-260px
 }
-.hydrocode .line-2{
+.cybersecurity .line-2{
      -webkit-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
      -moz-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
      -ms-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -758,14 +758,14 @@ footer{
      transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
      left:105%
  }
-.hydrocode-active .fade-zoom{
+.cybersecurity-active .fade-zoom{
     -webkit-transform:scale(1);
     -moz-transform:scale(1);
     -ms-transform:scale(1);
     transform:scale(1);
     opacity:1
 }
-.hydrocode-active .graph-line{
+.cybersecurity-active .graph-line{
      height:930px
  }
 

@@ -16,10 +16,10 @@ var Navigation = (function($) {
 
         }, { offset:'50px' });
 
-        // hydrocode waypoint
-        $('#hydrocode').waypoint(function(direction) {
+        // cybersecurity waypoint
+        $('#cybersecurity').waypoint(function(direction) {
 
-            $('.hydrocode').toggleClass('hydrocode-active');
+            $('.cybersecurity').toggleClass('cybersecurity-active');
 
             setNav(direction);
 

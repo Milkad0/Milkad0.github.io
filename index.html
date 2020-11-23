@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Milkad0</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.svg" />
+    <!-- Set Viewport Options -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Include Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/termynal.css" />
+
+    <!-- Include Libraries -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/lib/waypoints.min.js"></script>
+    <script src="assets/js/lib/jquery.easing.min.js"></script>
+    <script src="assets/js/lib/modernizr-2.6.2.min.js"></script>
+    <script src="assets/js/lib/respond.min.js"></script>
+
+</head>
+<body class = loading>
+    <div class="loader">
+
+        <div class="percent">000</div>
+
+    </div><!-- end .loading -->
+
+<nav class="navigation">
+
+    <a href="javascript:Navigation.scrollTo('.hero');" class="active"><span></span></a>
+    <a href="javascript:Navigation.scrollTo('.about');"><span></span></a>
+    <a href="javascript:Navigation.scrollTo('.hydrocode');"><span></span></a>
+    <a href="javascript:Navigation.scrollTo('.interests');"><span></span></a>
+    <a href="javascript:Navigation.scrollTo('.POI');"><span></span></a>
+    <a href="javascript:Navigation.scrollTo('.grail');"><span></span></a>
+
+</nav><!-- end .navigation -->
+<header class="hero">
+
+    <div class="container">
+
+        <div class="title">Cybersecurity engineer</div>
+        <div class="logo"><a href=""><img src="assets/img/logo.svg" alt="logo"/></a></div>
+        <h1>Vincent ETHEVE</h1>
+        <h2>Alias <span>MILKAD0</span></h2>
+       <h3 style="color:white; opacity: 0.75;" ><br> I created my first site at 16, I hope you will like this one.</h3>
+
+    </div><!-- end .container -->
+
+</header><!-- end header -->
+
+<div id="viewport">
+
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <h2><br>WHOAMI</h2>
+            <div class="portrait"><img src="assets/img/Portrait.png" alt=""/></div>
+            <div class="alwayson">
+
+
+
+                <div class="rectangle"></div>
+
+            </div><!-- end .alwayson -->
+            <!-- the termynal container -->
+            <div id="termynal"></div>
+            <script src="assets/js/termynal.js"></script>
+            <script>
+                var termynal = new Termynal('#termynal', {
+                    typeDelay: 40,
+                    lineDelay: 700,
+                    lineData: [
+                        { type: 'input', prompt: '[milkad0@vincent-pc]', value: 'whoami' },
+                        { value: 'Vincent ETHEVE' },
+                        { value: '02/07/1998 : 22 years' },
+                        { value: 'Graduated Engineer in Cybersecurity from Ecole Centrale d\'Electronique de Paris' },
+                        { value: 'HSBC' },
+                        { type: 'input', prompt: '[milkad0@vincent-pc]', value: 'python' },
+                        { value: 'Python 2.7.17 (default, Oct 19 2019, 23:36:22)' },
+                        { value: 'Type "help", "copyright","credits" or "license" for more indormation.'},
+                        { type: 'input', prompt: '>>>', value: 'import platform' },
+                        { type: 'input', prompt: '>>>', value: 'os = platform.system()' },
+                        { type: 'input', prompt: '>>>', value: 'def whyMilkad0():' },
+                        { type: 'input', prompt: '...', value: '   asw = input("Do you really want to know the origin of my pseudo ?")' },
+                        { type: 'input', prompt: '...', value: '   if asw == "y":' },
+                        { type: 'input', prompt: '...', value: '      print("In fact it\'s just because I like milk and mikado :P")' },
+                        { type: 'input', prompt: '...', value: '   elif asw == "n":' },
+                        { type: 'input', prompt: '...', value: '      print("Thank you for wanting to keep my secret")' },
+                        { type: 'input', prompt: '...', value: '   else:' },
+                        { type: 'input', prompt: '...', value: '      print("try to answer with y or n")' },
+                        { type: 'input', prompt: '>>>', value: 'whyMilkad0()' },
+                        { value: 'Do you really want to know the origin of my pseudo ?' },
+                        { type: 'input', prompt: '', value: 'y' },
+                        { value: 'In fact it\'s just because I like milk and mikado :P' },
+                    ]
+                });
+            </script>
+
+            <script>
+                //        Au scroll :
+                window.onscroll = function() {
+                    //            Quand Jquery est load
+                    $(document).ready(function() {
+                        //                    Pour tout les element avec un effect
+                        $("[termynal]").each(function() {
+                            if ($(this).offset().top < ($(window).scrollTop() + $(window).height())) {
+                                $(this).removeAttr('termynal');
+                            }
+                        })
+                    });
+                }
+
+            </script>
+        </div><!-- end .container -->
+
+    </section><!-- end .about -->
+
+    <section class="hydrocode" id="hydrocode">
+
+
+        <div class="container">
+
+            <div class="row">
+
+                    <h2>CYBERSECURITY</h2>
+
+                    <p style="text-align: justify" >
+                        In my group we use numerical models called hydrocodes to study the formation of impact craters and impact processes. Currently we are simulating the formation of large basins throughout the solar system.
+                        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut indicat cognomentum.
+
+                        Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satisfaceret atque monstraret, quam ob causam annonae convectio sit impedita.
+
+                        Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
+                    </p>
+
+
+
+                    <div class="graph">
+                        <div class="graph-line"></div>
+                        <div class="graph-line line-2"></div>
+
+                    </div><!-- end .graph -->
+
+            </div><!-- end .row -->
+            <a href="https://www.root-me.org/Vinc0?lang=fr"><img src="assets/img/ic_root-me.png" alt= "Rootme"></a>
+        </div><!-- end .container -->
+
+    </section><!-- end .hydrocode -->
+
+    <section class="interests" id="interests">
+
+
+        <div class="container">
+            <h2>PROJECTS</h2>
+
+            <div class="row">
+
+                <div class="column-2">
+
+                    <h3><br>Parkinson disease detector</h3>
+
+                    <p>
+                        In my group we use numerical models called hydrocodes to study the formation of impact craters and impact processes. Currently we are simulating the formation of large basins throughout the solar system.
+                        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut indicat cognomentum.
+
+                        Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satisfaceret atque monstraret, quam ob causam annonae convectio sit impedita.
+
+                        Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
+                    </p>
+                </div><!-- end .column-2 -->
+
+                <div class="column-2">
+
+                <h3><br>MazeRunner</h3>
+
+                <p>
+                    In my group we use numerical models called hydrocodes to study the formation of impact craters and impact processes. Currently we are simulating the formation of large basins throughout the solar system.
+                </p>
+
+            </div><!-- end .column-2 -->
+
+            </div><!-- end .row -->
+            <a href="https://github.com/Milkad0"><img src="assets/img/ic_github.png" alt= "Github"></a>
+
+        </div><!-- end .container -->
+    </section><!-- end .interests -->
+
+    <section class="POI" id="POI">
+
+        <div class="container">
+            <h2>HOBBIES</h2>
+            <div class="row">
+
+                <div class="column-3">
+
+                    <h3><br>Sport</h3>
+
+                    <p>
+                        In my group we use numerical models called hydrocodes to study the formation of impact craters and impact processes. Currently we are simulating the formation of large basins throughout the solar system.
+                        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut indicat cognomentum.
+
+                        Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satisfaceret atque monstraret, quam ob causam annonae convectio sit impedita.
+
+                        Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
+                    </p>
+                </div><!-- end .column-3 -->
+
+                <div class="column-3">
+
+                    <h3><br>Japan</h3>
+
+                    <p>
+                        In my group we use numerical models called hydrocodes to study the formation of impact craters and impact processes. Currently we are simulating the formation of large basins throughout the solar system.
+                    </p>
+
+                </div><!-- end .column-3 -->
+
+                <div class="column-3">
+
+                    <h3><br>Creation</h3>
+
+                    <p>
+                        In my group we use numerical models called hydrocodes to study the formation of impact craters and impact processes. Currently we are simulating the formation of large basins throughout the solar system.
+                    </p>
+
+                </div><!-- end .column-3 -->
+
+                <div class="graph">
+                    <div class="graph-line"></div>
+                    <div class="graph-line line-2"></div>
+                    <div class="graph-line line-3"></div>
+                    <div class="graph-line line-4"></div>
+                </div><!-- end .graph -->
+
+            </div><!-- end .row -->
+        </div><!-- end .container -->
+
+    </section><!-- end .publications -->
+
+    <section class="grail" id="grail">
+
+
+        <div class="container">
+            <h2>GRAIL</h2>
+
+            <!-- end .planet -->
+
+            <div class="text">
+
+                <p>
+                    I was lucky enough to see the launch of the NASA’s GRAIL mission and have presented at several team meetings. One of my driving goals is to be an investigator on a successful space mission.
+                </p>
+
+
+            </div><!-- end .text -->
+            <div class="planet">
+                <div class="world-steez-ring"><img src="assets/img/bulp.png" alt="steez"/></div>
+
+            </div>
+
+            <div class="text">
+            <div class="cv">
+                <a href="assets/pdf/CV.pdf" target="_blank"><h3>Download CV</h3></a>
+            </div><!-- end .cv -->
+        </div>
+
+        </div><!-- end .container -->
+
+    </section><!-- end .grail -->
+
+
+</div><!-- end #viewport -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <p><b>Vincent Etheve</b><br/>Cybersecurity Engineer</p>
+
+        <p>
+            <a href="https://www.linkedin.com/in/vincent-etheve-4550b114a/"><img src="assets/img/ic_linkedin_footer.png" alt= "Linkedin"></a> <a href="https://www.root-me.org/Vinc0?lang=fr"><img src="assets/img/ic_root-me_footer.png" alt= "Rootme"></a> <a href="https://github.com/Milkad0"><img src="assets/img/ic_github_footer.png" alt= "Github"></a>
+            <br><a href="mailto:vincent.ethevepro@gmail.com">vincent.ethevepro@gmail.com</a>
+
+        </p>
+
+        <p>Site by me.</p>
+
+    </div>
+
+</footer><!-- end footer -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-56522015-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<!-- Include Scripts -->
+<script src="assets/js/Milkad0.Loader.js"></script>
+<script src="assets/js/Milkad0.Navigation.js"></script>
+<script src="assets/js/Milkad0.js"></script>
+
+</body>
+</html>

@@ -629,7 +629,7 @@ footer{
     transform:rotate(-45deg)}
 .cybersecurity
 {
-    background:#000 url(../img/bg-cybersecurity.jpg) top no-repeat;
+    background:#0A0B0D url(../img/bg-cybersecurity.jpg) top no-repeat ;
     background-size: none;
     padding:260px 0px;
     position:relative;
@@ -641,10 +641,13 @@ footer{
     margin-left: 45%
 }
 @media (min-width: 1800px){
-    .cybersecurity{background-size:contain
+    .cybersecurity{
+        background-size:contain
     }}
 @media (max-width: 767px){
     .cybersecurity{
+        background:#000 url(../img/bg-cybersecurity-tel.jpg) no-repeat;
+        background-position: bottom;
         padding:160px 0px
     }
     .cybersecurity img{
@@ -724,16 +727,11 @@ footer{
 .cybersecurity .alwayson a:hover{
     color:#ffffff
 }
-.cybersecurity .graph{
-    height:400px;
-    position:relative
-}@media (max-width: 960px){
-    .cybersecurity .graph{
-        width:50%;
-        margin:auto;
-        margin-top:100px
-    }}
-@media (max-width: 767px){
+.cybersecurity .graph {
+    height: 400px;
+    position: relative
+}
+@media (max-width: 961px){
     .cybersecurity .graph{
         display:none
     }}
@@ -771,7 +769,7 @@ footer{
 
 .POI
 {
-    background:#000000 url(../img/bg-fuji.jpg) top no-repeat;
+    background:#000000 url(../img/bg-fuji.jpg) bottom no-repeat;
     background-size: none;
     padding:260px 0px;
     position:relative;
@@ -779,12 +777,27 @@ footer{
     overflow:hidden
 }
 @media (min-width: 1800px){
-    .POI{background-size:contain
+    .POI{
+        background-size:contain;
+        background-position : top
     }}
 @media (max-width: 767px){
     .POI{
+        background:#000000 url(../img/bg-fuji-tel.jpg) top no-repeat;
         padding:160px 0px
-    }}
+    }
+    .POI .h1C{
+        color: #000000;
+    }
+    .POI .h2C{
+        color: #484644;
+    }
+    .POI .h3C{
+        color: #707070;
+}
+
+
+}
 .POI .impact{
     padding-top:100px;
     line-height:18px
@@ -862,13 +875,8 @@ footer{
 .POI .graph{
     height:400px;
     position:relative
-}@media (max-width: 960px){
-    .POI .graph{
-        width:50%;
-        margin:auto;
-        margin-top:100px
-    }}
-@media (max-width: 767px){
+}
+@media (max-width: 961px){
     .POI .graph{
         display:none
     }}

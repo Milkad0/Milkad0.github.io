@@ -26,10 +26,10 @@ var Navigation = (function($) {
         }, { offset:'50px' });
 
 
-        // interests waypoint
-        $('#interests').waypoint(function(direction) {
+        // projects waypoint
+        $('#projects').waypoint(function(direction) {
 
-            $('.interests').toggleClass('interests-active');
+            $('.projects').toggleClass('projects-active');
             $('.navigation').toggleClass('navigation-dark');
 
             setNav(direction);

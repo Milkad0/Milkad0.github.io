@@ -27,7 +27,7 @@
     box-sizing: border-box;
 }@media (max-width: 767px){
     [data-termynal] {
-    height: 1150px;
+    height: 1700px;
 }}
 
 [data-termynal]:before {

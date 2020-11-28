@@ -14,7 +14,7 @@
 
 [data-termynal] {
     width: 750px;
-    height: 950px;
+    height: 650px;
     max-width: 100%;
     background: var(--color-bg);
     color: var(--color-text);
@@ -27,7 +27,7 @@
     box-sizing: border-box;
 }@media (max-width: 767px){
     [data-termynal] {
-    height: 1800px;
+    height: 1150px;
 }}
 
 [data-termynal]:before {

@@ -20,7 +20,7 @@ h1,h2,h3,h4{
     }}
 h1{
     font-size:100px;
-    line-height:100px
+    line-height:100px;
 }@media (max-width: 767px)
 {
 h1{
@@ -486,10 +486,10 @@ footer a:hover{
 {
     background:#0A0B0D url(../img/bg-cybersecurity.jpg) top no-repeat ;
     background-size: none;
-    padding:260px 0px;
+    padding:260px 0px 310px;
     position:relative;
     color:#ffffff;
-    overflow:hidden
+    overflow:hidden;
 }
 
 .cybersecurity img{
@@ -546,11 +546,11 @@ footer a:hover{
 {
     background:#000000 url(../img/bg-fuji.jpg) bottom no-repeat;
     background-size: none;
-    padding:260px 0px;
+    padding:260px 0px 1000px;
     position:relative;
     color:#ffffff;
     overflow:hidden;
-    padding-bottom:1000px;
+
 }
 @media (min-width: 1800px){
     .POI{

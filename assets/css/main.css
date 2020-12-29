@@ -444,7 +444,7 @@ footer a:hover{
     background:#000000;
     padding:200px 0px;
     position:relative;
-    color:#ffffff
+    color:#ffffff;
 }@media (max-width: 767px){
     .about{
         padding:100px 0px
@@ -474,9 +474,13 @@ footer a:hover{
     height:0px;
     width:335px
 }
+.about h2{
+    text-align:center;
+}
+
 .about h3{
      z-index:80;
-     position:relative
+     position:relative;
  }
 .about-active .rectangle{
     height:450px
@@ -490,11 +494,9 @@ footer a:hover{
     position:relative;
     color:#ffffff;
     overflow:hidden;
+    text-align:center;
 }
 
-.cybersecurity img{
-    margin-left: 45%
-}
 @media (min-width: 1800px){
     .cybersecurity{
         background-size:contain
@@ -504,9 +506,6 @@ footer a:hover{
         background:#000 url(../img/bg-cybersecurity-tel.jpg) no-repeat;
         background-position: bottom;
         padding:160px 0px
-    }
-    .cybersecurity img{
-        margin-left: 35%
     }}
 
 .cybersecurity .graph {
@@ -550,6 +549,7 @@ footer a:hover{
     position:relative;
     color:#ffffff;
     overflow:hidden;
+    text-align:center;
 
 }
 @media (min-width: 1800px){
@@ -560,7 +560,7 @@ footer a:hover{
 @media (max-width: 767px){
     .POI{
         background:#000000 url(../img/bg-fuji-tel.jpg) top no-repeat;
-        padding:160px 0px
+        padding:160px 0px;
     }
     .POI .h1C{
         color: #000000;

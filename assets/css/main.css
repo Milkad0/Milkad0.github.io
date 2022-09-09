@@ -323,8 +323,8 @@ header .container{
        height:100%
    }
 .loaded header .title{
-           top:160px
-       }
+    top:160px
+}
 @media (max-width: 767px){
     .loaded header .title{
         top:40px
@@ -335,7 +335,7 @@ header .container{
     -ms-transform:scale(1);
     transform:scale(1);
     position:absolute
-                     }
+}
 .loaded header .logo a{
     opacity:0.5
 }
@@ -349,15 +349,15 @@ header .container{
     }}
 
 .loaded header h2{
-     opacity:1;
- }@media (max-width: 767px){
+    opacity:1;
+}@media (max-width: 767px){
     .loaded header h2{
         top:600px
     }}
 
 .loaded header h3{
-     opacity:1;
- }@media (max-width: 767px){
+    opacity:1;
+}@media (max-width: 767px){
     .loaded header h3{
         top:650px
     }}
